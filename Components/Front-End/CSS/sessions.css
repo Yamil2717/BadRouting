@@ -1,0 +1,85 @@
+.box-sessions {
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 1px var(--Main-black-color);
+    border-top: 3px solid var(--Main-red-color);
+    background-color: var(--Main-gray-color);
+}
+
+.box-sessions-title {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.search {
+    width: 150px;
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.input-search {
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 10px;
+    position: relative;
+    border-radius: 3px;
+    z-index: var(--z-normal);
+    color: var(--Main-text-color);
+    border: 1px solid #111111;
+    background-color: #121212;
+}
+
+.submit-search {
+    top: 0;
+    left: 100%;
+    height: 30px;
+    padding: 5px 10px 5px 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    position: absolute;
+    vertical-align: middle;
+    color: var(--Main-red-color);
+    border: 1px solid #111111;
+    background-color: #121212;
+}
+
+.submit-search:hover,
+.submit-search:active {
+    background-color: #0c0c0c;
+}
+
+.box-table {
+    overflow-x: auto;
+}
+
+.table-sessions {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    color: var(--Main-text-color);
+}
+
+.table-sessions {
+    vertical-align: top;
+}
+
+tr, td {
+    padding: 8px;
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+}
+
+.tr:hover {
+    background-color: #111111;
+}
+
+@media only screen and (max-width: 767px) {
+    width: 100%;
+    overflow-y: hidden;
+}
